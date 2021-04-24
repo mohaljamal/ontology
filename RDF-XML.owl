@@ -1,0 +1,1003 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:9e666a5f-46e2-4469-a6cb-1b5ffcc42c21#"
+     xml:base="urn:webprotege:ontology:9e666a5f-46e2-4469-a6cb-1b5ffcc42c21"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:9e666a5f-46e2-4469-a6cb-1b5ffcc42c21"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/calorie -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/calorie">
+        <rdfs:label xml:lang="en">dc:calorie</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/child -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/child">
+        <rdfs:label xml:lang="en">dc:child</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/comfort -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/comfort">
+        <rdfs:label xml:lang="en">dc:comfort</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/cost -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/cost">
+        <rdfs:label xml:lang="en">dc:cost</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/period -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/period">
+        <rdfs:label xml:lang="en">dc:period</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/speed -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/speed">
+        <rdfs:label xml:lang="en">dc:speed</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5XeluV8HI5K2dU6K4m3qg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R5XeluV8HI5K2dU6K4m3qg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWuRW12iFiYgHF8T3KyWia"/>
+        <rdfs:label xml:lang="en">Desserts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R70lKOKmqlUHERFd9R8Yenw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R70lKOKmqlUHERFd9R8Yenw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDQLRqgxmHuclJc9ZAlwFyt"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Medium</dc:cost>
+        <dc:title xml:lang="en">Fresh</dc:title>
+        <rdfs:label xml:lang="en">Fresh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R75NXKqhzbOB32kodyje3Ob -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R75NXKqhzbOB32kodyje3Ob">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCRUOszpHkgmrcjpeKAhmv7"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Cheao</dc:cost>
+        <dc:title xml:lang="en">Orange</dc:title>
+        <rdfs:label xml:lang="en">Orange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77nWcfOxTtV6rEOAT01qPZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R77nWcfOxTtV6rEOAT01qPZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Mk9rcVOHyZ4RqyW95bfTz"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77qUFPhZtRXdpRcNMZ058T -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R77qUFPhZtRXdpRcNMZ058T">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmqVtABRIA152Duo6c5jAO"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:cost xml:lang="en">cheap</dc:cost>
+        <dc:title xml:lang="en">Carrot</dc:title>
+        <rdfs:label xml:lang="en">Carrot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R78vjt5z1lszzggciUjhbc6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R78vjt5z1lszzggciUjhbc6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDtMbQ9nKdSWFNJdOMZAs3W"/>
+        <dc:cost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheap</dc:cost>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">House Sitting</dc:title>
+        <rdfs:label xml:lang="en">House Sitting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7NNgEORXLbVFLy0aCEq1Nv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7NNgEORXLbVFLy0aCEq1Nv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RHSHvKa1FOGq3wAkZ5H0o1"/>
+        <dc:comfort xml:lang="en">Yes</dc:comfort>
+        <dc:cost xml:lang="en">Very Cheap</dc:cost>
+        <dc:speed xml:lang="en">Slow</dc:speed>
+        <dc:title xml:lang="en">Buses</dc:title>
+        <rdfs:label xml:lang="en">Buses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7OM0jDPGlawpHoTFFLq3um -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7OM0jDPGlawpHoTFFLq3um">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7p5CRfYMy3PGvSuzZGbLSX"/>
+        <rdfs:label xml:lang="en">Air</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7jQKXFg0zK8j6VDvMnTzrs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7jQKXFg0zK8j6VDvMnTzrs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmqVtABRIA152Duo6c5jAO"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:title xml:lang="en">Cucumber</dc:title>
+        <rdfs:label xml:lang="en">Cucumber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7p5CRfYMy3PGvSuzZGbLSX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7p5CRfYMy3PGvSuzZGbLSX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Mk9rcVOHyZ4RqyW95bfTz"/>
+        <rdfs:label xml:lang="en">Transportation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7vugwpKqbBKxTnAd0eazLU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7vugwpKqbBKxTnAd0eazLU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcfJyGaseLVmmcL0d8tVbO"/>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:period xml:lang="en">Long</dc:period>
+        <dc:title xml:lang="en">Hiking</dc:title>
+        <rdfs:label xml:lang="en">Hiking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7vxnxQYIj6vyIqpzE3ANuy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7vxnxQYIj6vyIqpzE3ANuy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8U5VwMiwLR6yetU1LQ4yuN"/>
+        <dc:cost xml:lang="en">Expensive</dc:cost>
+        <dc:period xml:lang="en">Short</dc:period>
+        <dc:title xml:lang="en">Festivals</dc:title>
+        <rdfs:label xml:lang="en">Festivals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R806sgtPlpkMAJlSabX0L1t -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R806sgtPlpkMAJlSabX0L1t">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OM0jDPGlawpHoTFFLq3um"/>
+        <dc:comfort xml:lang="en">Yes</dc:comfort>
+        <dc:cost xml:lang="en">Very expensive</dc:cost>
+        <dc:speed xml:lang="en">Fast</dc:speed>
+        <dc:title xml:lang="en">Helicopter</dc:title>
+        <rdfs:label xml:lang="en">Helicopter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R826dtIeMBUtH93KZYKqXiZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R826dtIeMBUtH93KZYKqXiZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcfJyGaseLVmmcL0d8tVbO"/>
+        <dc:cost xml:lang="en">very Expensive</dc:cost>
+        <dc:period xml:lang="en">Short</dc:period>
+        <dc:title xml:lang="en">Paragliding</dc:title>
+        <rdfs:label xml:lang="en">Paragliding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R82nRW8VoHfumWllgpMfXtA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R82nRW8VoHfumWllgpMfXtA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDtMbQ9nKdSWFNJdOMZAs3W"/>
+        <dc:cost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheap</dc:cost>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homestays</dc:title>
+        <rdfs:label xml:lang="en">Homestays</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R83zlDzBCSBiUbNOVnsLC8K -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R83zlDzBCSBiUbNOVnsLC8K">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDZXEVdknyokmZSo2iKn3cB"/>
+        <dc:calorie xml:lang="en">Medium</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:title xml:lang="en">Penne</dc:title>
+        <rdfs:label xml:lang="en">Penne</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88sClthvZ2gLfQWdGOrISf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R88sClthvZ2gLfQWdGOrISf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBLAcdMGTzKwmzEjg1A982O"/>
+        <dc:calorie rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</dc:calorie>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:title xml:lang="en">Lentil</dc:title>
+        <rdfs:label xml:lang="en">Lentil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8BlzYGgs8uuXyBJCuHROz7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8BlzYGgs8uuXyBJCuHROz7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RHSHvKa1FOGq3wAkZ5H0o1"/>
+        <dc:comfort xml:lang="en">No</dc:comfort>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:speed xml:lang="en">Medium</dc:speed>
+        <dc:title xml:lang="en">Cars</dc:title>
+        <rdfs:label xml:lang="en">Cars</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ElXlxYylMmqocsGdl8Nl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ElXlxYylMmqocsGdl8Nl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcfJyGaseLVmmcL0d8tVbO"/>
+        <dc:cost xml:lang="en">Expensive</dc:cost>
+        <dc:period xml:lang="en">Long</dc:period>
+        <dc:title xml:lang="en">Rafting</dc:title>
+        <rdfs:label xml:lang="en">Rafting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ILUQttpx6dvzkAhS0bzoD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ILUQttpx6dvzkAhS0bzoD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcfJyGaseLVmmcL0d8tVbO"/>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:period xml:lang="en">Short</dc:period>
+        <dc:title xml:lang="en">Fishing</dc:title>
+        <rdfs:label xml:lang="en">Fishing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8MaM07MseBk9LU3BQ4Lsab -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8MaM07MseBk9LU3BQ4Lsab">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROl2CUJ2I5EmPaienFkD5R"/>
+        <dc:calorie xml:lang="en">High</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:title xml:lang="en">Chickenburger</dc:title>
+        <rdfs:label xml:lang="en">Chickenburger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Mk9rcVOHyZ4RqyW95bfTz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Mk9rcVOHyZ4RqyW95bfTz">
+        <rdfs:label xml:lang="en">Travel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8U5VwMiwLR6yetU1LQ4yuN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8U5VwMiwLR6yetU1LQ4yuN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jw2GVuAsdgKrOViglr0QV"/>
+        <rdfs:label xml:lang="en">Tourism Culture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8jw2GVuAsdgKrOViglr0QV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8jw2GVuAsdgKrOViglr0QV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Mk9rcVOHyZ4RqyW95bfTz"/>
+        <rdfs:label xml:lang="en">Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Ga326sCGtA1XsG1buXMvj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Ga326sCGtA1XsG1buXMvj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RGnMtgGibuXvqrSph6oJce"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:title xml:lang="en">Tea</dc:title>
+        <rdfs:label xml:lang="en">Tea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9d28p9dLwIiPqvQaAqLsWh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9d28p9dLwIiPqvQaAqLsWh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RxHeKo6aoEIDvVDTobXw8K"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Expensive</dc:cost>
+        <dc:title xml:lang="en">Fish</dc:title>
+        <rdfs:label xml:lang="en">Fish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9dUVhRBlXoE5vee5TeO2JT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9dUVhRBlXoE5vee5TeO2JT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcfJyGaseLVmmcL0d8tVbO"/>
+        <dc:cost xml:lang="en">Expensive</dc:cost>
+        <dc:period xml:lang="en">long</dc:period>
+        <dc:title xml:lang="en">Safari Tour</dc:title>
+        <rdfs:label xml:lang="en">Safari Tour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9qqM6PmBGMOspoEl78qCK7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9qqM6PmBGMOspoEl78qCK7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDQLRqgxmHuclJc9ZAlwFyt"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:title xml:lang="en">Soft</dc:title>
+        <rdfs:label xml:lang="en">Soft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9tztbpZWsIQw95MdmvFvyh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9tztbpZWsIQw95MdmvFvyh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCRUOszpHkgmrcjpeKAhmv7"/>
+        <dc:calorie xml:lang="en">High</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Expensive</dc:cost>
+        <dc:title xml:lang="en">Panana</dc:title>
+        <rdfs:label xml:lang="en">Panana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBCH3o2Dqe5V8KshGfo8PiC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBCH3o2Dqe5V8KshGfo8PiC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8U5VwMiwLR6yetU1LQ4yuN"/>
+        <dc:cost xml:lang="en">Medium</dc:cost>
+        <dc:period xml:lang="en">Short</dc:period>
+        <dc:title xml:lang="en">Museum</dc:title>
+        <rdfs:label xml:lang="en">Museum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBLAcdMGTzKwmzEjg1A982O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBLAcdMGTzKwmzEjg1A982O">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWuRW12iFiYgHF8T3KyWia"/>
+        <rdfs:label xml:lang="en">Soups</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBTCTeSfFZUz2YnLpd54wYX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBTCTeSfFZUz2YnLpd54wYX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RHSHvKa1FOGq3wAkZ5H0o1"/>
+        <dc:comfort xml:lang="en">Yes</dc:comfort>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:speed xml:lang="en">Medium</dc:speed>
+        <dc:title xml:lang="en">Train</dc:title>
+        <rdfs:label xml:lang="en">Trains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBUJ6uiXZWyo3RIx1x8J1Mx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBUJ6uiXZWyo3RIx1x8J1Mx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBLAcdMGTzKwmzEjg1A982O"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:cost xml:lang="en">Expensive</dc:cost>
+        <dc:title xml:lang="en">Broccoli</dc:title>
+        <rdfs:label xml:lang="en">Broccoli</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBdyacftXOsdTzrf1id1F1z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBdyacftXOsdTzrf1id1F1z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCqVQjLbyO1s6bRZVhqcrgW"/>
+        <dc:calorie xml:lang="en">High</dc:calorie>
+        <dc:child xml:lang="en">No</dc:child>
+        <dc:cost xml:lang="en">expensive</dc:cost>
+        <dc:title xml:lang="en">Raki</dc:title>
+        <rdfs:label xml:lang="en">Raki</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmqVtABRIA152Duo6c5jAO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmqVtABRIA152Duo6c5jAO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWuRW12iFiYgHF8T3KyWia"/>
+        <rdfs:label xml:lang="en">Vegetables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBq331Mf12Vf97nDqJlRoMC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBq331Mf12Vf97nDqJlRoMC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCRUOszpHkgmrcjpeKAhmv7"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:title xml:lang="en">Apple</dc:title>
+        <rdfs:label xml:lang="en">Apple</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBsE0QZLYcFqJo8U3ig1eYV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBsE0QZLYcFqJo8U3ig1eYV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OM0jDPGlawpHoTFFLq3um"/>
+        <dc:comfort xml:lang="en">Yes</dc:comfort>
+        <dc:cost xml:lang="en">Expensive</dc:cost>
+        <dc:speed xml:lang="en">fast</dc:speed>
+        <dc:title xml:lang="en">plane</dc:title>
+        <rdfs:label xml:lang="en">plane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBvUCaQQfyuD7E2z4VbEgxn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBvUCaQQfyuD7E2z4VbEgxn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvHe2HiEStgNcHYLJSZJfK"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Medium</dc:cost>
+        <dc:title xml:lang="en">Fatosh</dc:title>
+        <rdfs:label xml:lang="en">Fatosh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1liEyYfmh8fAJF8hH2akS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC1liEyYfmh8fAJF8hH2akS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RxHeKo6aoEIDvVDTobXw8K"/>
+        <dc:calorie xml:lang="en">High</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Expensive</dc:cost>
+        <dc:title xml:lang="en">Lamb</dc:title>
+        <rdfs:label xml:lang="en">Lamb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCCX91z4ere1LzBHEtm39qs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCCX91z4ere1LzBHEtm39qs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcfJyGaseLVmmcL0d8tVbO"/>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:period xml:lang="en">Short</dc:period>
+        <dc:title xml:lang="en">zipline</dc:title>
+        <rdfs:label xml:lang="en">zipline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCFF4wwwLFbpZA9zFwg2DS1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCFF4wwwLFbpZA9zFwg2DS1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCqVQjLbyO1s6bRZVhqcrgW"/>
+        <dc:calorie xml:lang="en">High</dc:calorie>
+        <dc:child xml:lang="en">No</dc:child>
+        <dc:cost xml:lang="en">Expensive</dc:cost>
+        <dc:title xml:lang="en">Whiskey</dc:title>
+        <rdfs:label xml:lang="en">Whiskey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCRUOszpHkgmrcjpeKAhmv7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCRUOszpHkgmrcjpeKAhmv7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWuRW12iFiYgHF8T3KyWia"/>
+        <rdfs:label xml:lang="en">Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaTZNMSg1kRsrEZuqUYM4p -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCaTZNMSg1kRsrEZuqUYM4p">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDZXEVdknyokmZSo2iKn3cB"/>
+        <dc:calorie xml:lang="en">Medium</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:title xml:lang="en">Spaghetti</dc:title>
+        <rdfs:label xml:lang="en">Spaghetti</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCcfJyGaseLVmmcL0d8tVbO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCcfJyGaseLVmmcL0d8tVbO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jw2GVuAsdgKrOViglr0QV"/>
+        <rdfs:label xml:lang="en">Leisure Sports</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCnemktr6D1F25MtRAWjDBk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCnemktr6D1F25MtRAWjDBk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8U5VwMiwLR6yetU1LQ4yuN"/>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:period xml:lang="en">Short</dc:period>
+        <dc:title xml:lang="en">Historic Places</dc:title>
+        <rdfs:label xml:lang="en">Historic Places</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCqKJFCwnrj9d1v1CJiqJEb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCqKJFCwnrj9d1v1CJiqJEb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmqVtABRIA152Duo6c5jAO"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:cost xml:lang="en">Medium</dc:cost>
+        <dc:title xml:lang="en">Lemon</dc:title>
+        <rdfs:label xml:lang="en">Lemon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCqVQjLbyO1s6bRZVhqcrgW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCqVQjLbyO1s6bRZVhqcrgW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDk581eA5qEk8daqGUtnh"/>
+        <rdfs:label xml:lang="en">Alcoholic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCr5DCSP6sJmDmS7r8EtPmh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCr5DCSP6sJmDmS7r8EtPmh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCRUOszpHkgmrcjpeKAhmv7"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:title xml:lang="en">Watermelon</dc:title>
+        <rdfs:label xml:lang="en">Watermelon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD05ZqjzL963DLubCy6F9a -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD05ZqjzL963DLubCy6F9a">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvHe2HiEStgNcHYLJSZJfK"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Very Cheap</dc:cost>
+        <dc:title xml:lang="en">Shepherd</dc:title>
+        <rdfs:label xml:lang="en">Shepherd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAbxOBCj1l55pDRPcs33bv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDAbxOBCj1l55pDRPcs33bv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmqVtABRIA152Duo6c5jAO"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:cost xml:lang="en">Very Cheap</dc:cost>
+        <dc:title xml:lang="en">Tomatoes</dc:title>
+        <rdfs:label xml:lang="en">Tomatoes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDBOR77bsbn2NtSPBLvrQqx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDBOR77bsbn2NtSPBLvrQqx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R5XeluV8HI5K2dU6K4m3qg"/>
+        <rdfs:label xml:lang="en">Western</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDJDBw0WPboyMPFZ9rV0X3y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDJDBw0WPboyMPFZ9rV0X3y">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8U5VwMiwLR6yetU1LQ4yuN"/>
+        <dc:cost xml:lang="en">Free</dc:cost>
+        <dc:period xml:lang="en">Medium</dc:period>
+        <dc:title xml:lang="en">National Parks</dc:title>
+        <rdfs:label xml:lang="en">National Parks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDQLRqgxmHuclJc9ZAlwFyt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDQLRqgxmHuclJc9ZAlwFyt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDk581eA5qEk8daqGUtnh"/>
+        <rdfs:label xml:lang="en">Cold Drinks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDY4DKN04ltpI4tRVrTiMz4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDY4DKN04ltpI4tRVrTiMz4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvHe2HiEStgNcHYLJSZJfK"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Expensive</dc:cost>
+        <dc:title xml:lang="en">Season</dc:title>
+        <rdfs:label xml:lang="en">Season</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZXEVdknyokmZSo2iKn3cB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZXEVdknyokmZSo2iKn3cB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWuRW12iFiYgHF8T3KyWia"/>
+        <rdfs:label xml:lang="en">Pasta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZfE4ng8ijx4TZ8ejdUOuA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZfE4ng8ijx4TZ8ejdUOuA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcfJyGaseLVmmcL0d8tVbO"/>
+        <dc:cost xml:lang="en">Very cheap</dc:cost>
+        <dc:period xml:lang="en">Medium</dc:period>
+        <dc:title xml:lang="en">Camping</dc:title>
+        <rdfs:label xml:lang="en">Camping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDk581eA5qEk8daqGUtnh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDk581eA5qEk8daqGUtnh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R77nWcfOxTtV6rEOAT01qPZ"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drinks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDpskPesRn2yFN9cs29w1uR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDpskPesRn2yFN9cs29w1uR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcfJyGaseLVmmcL0d8tVbO"/>
+        <dc:cost xml:lang="en">Free</dc:cost>
+        <dc:period xml:lang="en">Medium</dc:period>
+        <dc:title xml:lang="en">Swimming</dc:title>
+        <rdfs:label xml:lang="en">Swimming</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDtMbQ9nKdSWFNJdOMZAs3W -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDtMbQ9nKdSWFNJdOMZAs3W">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Mk9rcVOHyZ4RqyW95bfTz"/>
+        <rdfs:label xml:lang="en">Accommodation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDvHe2HiEStgNcHYLJSZJfK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDvHe2HiEStgNcHYLJSZJfK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWuRW12iFiYgHF8T3KyWia"/>
+        <rdfs:label xml:lang="en">Salads</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDvQsv3wj028kqmus0fh6nu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDvQsv3wj028kqmus0fh6nu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvHe2HiEStgNcHYLJSZJfK"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:title xml:lang="en">Akdeniz</dc:title>
+        <rdfs:label xml:lang="en">Akdeniz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGnMtgGibuXvqrSph6oJce -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RGnMtgGibuXvqrSph6oJce">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDk581eA5qEk8daqGUtnh"/>
+        <rdfs:label xml:lang="en">Hot Drinks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHSHvKa1FOGq3wAkZ5H0o1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RHSHvKa1FOGq3wAkZ5H0o1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7p5CRfYMy3PGvSuzZGbLSX"/>
+        <rdfs:label xml:lang="en">Land</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLK1fnE8XiJq2zYmBXiSWi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLK1fnE8XiJq2zYmBXiSWi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcfJyGaseLVmmcL0d8tVbO"/>
+        <dc:cost xml:lang="en">Free</dc:cost>
+        <dc:period xml:lang="en">Long</dc:period>
+        <dc:title xml:lang="en">Rock Climbing</dc:title>
+        <rdfs:label xml:lang="en">Rock Climbing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNfCrKriqLSwQV7Te67HzV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNfCrKriqLSwQV7Te67HzV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDtMbQ9nKdSWFNJdOMZAs3W"/>
+        <dc:cost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medium</dc:cost>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serviced Apartment</dc:title>
+        <rdfs:label xml:lang="en">Serviced Apartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROl2CUJ2I5EmPaienFkD5R -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ROl2CUJ2I5EmPaienFkD5R">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWuRW12iFiYgHF8T3KyWia"/>
+        <dc:title xml:lang="en">Burgers</dc:title>
+        <rdfs:label xml:lang="en">Burgers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRQMets1xbDnN7SxTQn0eY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRQMets1xbDnN7SxTQn0eY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCqVQjLbyO1s6bRZVhqcrgW"/>
+        <dc:calorie xml:lang="en">High</dc:calorie>
+        <dc:child xml:lang="en">No</dc:child>
+        <dc:cost xml:lang="en">Medium</dc:cost>
+        <dc:title xml:lang="en">Wine</dc:title>
+        <rdfs:label xml:lang="en">Wine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRq5Se5MLnE3vi8IeApIdQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRq5Se5MLnE3vi8IeApIdQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDtMbQ9nKdSWFNJdOMZAs3W"/>
+        <dc:cost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Free</dc:cost>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Couchsurfing</dc:title>
+        <rdfs:label xml:lang="en">Couchsurfing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTaWmfCWjDFqK4GFWJJvBR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTaWmfCWjDFqK4GFWJJvBR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDtMbQ9nKdSWFNJdOMZAs3W"/>
+        <dc:cost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expensive</dc:cost>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hotels or Resorts</dc:title>
+        <rdfs:label xml:lang="en">Hotels or Resorts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWbr1xbUKYkypq6AtaIKfb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWbr1xbUKYkypq6AtaIKfb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBLAcdMGTzKwmzEjg1A982O"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:cost xml:lang="en">Medium</dc:cost>
+        <dc:title xml:lang="en">Mushroom</dc:title>
+        <rdfs:label xml:lang="en">Mushroom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWuRW12iFiYgHF8T3KyWia -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWuRW12iFiYgHF8T3KyWia">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R77nWcfOxTtV6rEOAT01qPZ"/>
+        <rdfs:label xml:lang="en">Eatables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbPodqdOYT6OLg0G3h5YJ1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbPodqdOYT6OLg0G3h5YJ1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCqVQjLbyO1s6bRZVhqcrgW"/>
+        <dc:calorie xml:lang="en">High</dc:calorie>
+        <dc:child xml:lang="en">No</dc:child>
+        <dc:cost xml:lang="en">Medium</dc:cost>
+        <dc:title xml:lang="en">Beer</dc:title>
+        <rdfs:label xml:lang="en">Beer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rg7njbEA5kPCVMdSDW8CHy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rg7njbEA5kPCVMdSDW8CHy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RGnMtgGibuXvqrSph6oJce"/>
+        <dc:calorie xml:lang="en">Low</dc:calorie>
+        <dc:child xml:lang="en">No</dc:child>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:title xml:lang="en">Coffee</dc:title>
+        <rdfs:label xml:lang="en">Coffee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmG7XRBK3koDgrAVwXJPKj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmG7XRBK3koDgrAVwXJPKj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROl2CUJ2I5EmPaienFkD5R"/>
+        <dc:calorie xml:lang="en">High</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Medium</dc:cost>
+        <dc:title xml:lang="en">Hamburger</dc:title>
+        <rdfs:label xml:lang="en">Hamburger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rq4vlD62Ff8Hk5uqjF7bGp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rq4vlD62Ff8Hk5uqjF7bGp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8U5VwMiwLR6yetU1LQ4yuN"/>
+        <dc:cost xml:lang="en">Free</dc:cost>
+        <dc:period xml:lang="en">Short</dc:period>
+        <dc:title xml:lang="en">Religious Places</dc:title>
+        <rdfs:label xml:lang="en">Religious Places</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsXoVwb3pwlNmQo0BZbv0t -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsXoVwb3pwlNmQo0BZbv0t">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R5XeluV8HI5K2dU6K4m3qg"/>
+        <rdfs:label xml:lang="en">Eastern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rtt0DMF7iaX3HDFfPDHidv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rtt0DMF7iaX3HDFfPDHidv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDtMbQ9nKdSWFNJdOMZAs3W"/>
+        <dc:cost rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expensive</dc:cost>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short-term Rentals</dc:title>
+        <rdfs:label xml:lang="en">Short-term Rentals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ru7eSi3ktNiyfi7YT81J0b -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ru7eSi3ktNiyfi7YT81J0b">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RxHeKo6aoEIDvVDTobXw8K"/>
+        <dc:calorie xml:lang="en">Medium</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Medium</dc:cost>
+        <dc:title xml:lang="en">Beef</dc:title>
+        <rdfs:label xml:lang="en">Beef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RxHeKo6aoEIDvVDTobXw8K -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RxHeKo6aoEIDvVDTobXw8K">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWuRW12iFiYgHF8T3KyWia"/>
+        <rdfs:label xml:lang="en">Meat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RzFOMBo5pBNAEmJdHm0Hlg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RzFOMBo5pBNAEmJdHm0Hlg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCRUOszpHkgmrcjpeKAhmv7"/>
+        <dc:calorie xml:lang="en">No</dc:calorie>
+        <dc:child xml:lang="en">Yes</dc:child>
+        <dc:cost xml:lang="en">Cheap</dc:cost>
+        <dc:title xml:lang="en">Melon</dc:title>
+        <rdfs:label xml:lang="en">Melon</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
